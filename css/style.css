@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    border: 0px;
+
+}
+.header{
+    height: 610px;
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    background-color: black;
+
+}
+.header h2,h5{
+    text-align: center;
+    top: 56%;
+    position: relative;
+}
+.header h5{
+    top: 38%;   
+}
+#image{
+    height: 100px;
+    position: relative;
+    top: 30%;
+    border: white 4px;
+}
+#image:hover{
+    border: black solid 4px;
+}
+.icon-row{
+    margin-top: 340px;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    height: 100px;   
+}
+#i1{
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#i1{
+    color: white; 
+}
+#i1:hover {
+    color: black;
+    background-color: white;
+}
+#i1:active{
+    background-color: gray;
+}
+
+.mail{
+    display: block;
+    right: 0px;
+    float: left;
+    margin-left: 20px;
+    color: whitesmoke;
+}
+.menu-bar{
+    background: black;
+    text-align: center;
+    height: 51px;
+    position: sticky;
+    top: 0;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+
+.menu-bar ul li{
+    width: 140px;
+    margin:6px;
+    padding: 15px;
+    height: 47px;
+    box-sizing: border-box;
+}
+.active, .menu-bar ul li:hover{
+    background:white;
+    color: black;
+    border-radius: 3px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: rgb(211, 192, 192);
+}
+.menu-bar ul li a:hover{
+    color: black;
+}
+.contents{
+}
+.about{
+    text-align: center;
+    background-color: rgb(233, 231, 231);
+    color: rgb(83, 81, 81);
+    height: 200px;
+}
+.about h1{
+    font-size: 28px;
+
+    line-height: 70px;
+}
+.about p{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+}
+.skills{
+    width: 94%;
+}
+.box{
+    width: 500px;
+    place-content: center;
+    padding: 0px;
+    margin-left: 8%;
+    float: left;
+}
+
+.line{
+    margin-top: 25px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+.box2{
+    width: 500px;
+    place-content: center;
+    padding: 0px;
+    margin-right: 5%;
+    margin-left: 8%;
+    float: left;
+}
+.skills h1{
+    padding-top: 3%;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 30px;
+}
+.skills h2{
+    padding-top: 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 0px;
+    font-size: 18px;
+
+}
+.tools{
+    align-content: center;
+    padding: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    float: initial;
+    margin-top: 80px;
+
+}
+.tools h1{
+    font-size: 25px;
+}
+.tools1 img{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.footer{
+    height: 250px;
+    background-color: rgb(16, 29, 22);
+    text-align: center;
+    color: white;
+}
+.icon-footer-row{
+    margin-top: 40px;
+
+}
+#footer h1{
+    font-family: sans-serif;
+    color: grey;
+    font-size: 35px;
+}
+#i11{
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#i11{
+    color: rgb(155, 129, 129); 
+}
+#i11:hover {
+    color: rgb(39, 155, 126);
+    background-color: rgb(176, 201, 171);
+}
+#i11:active{
+    background-color: rgb(7, 7, 7);
+    color: green;
+}
+.copyright { 
+    text-align: center;
+    padding-top: 50px;
+    background-color: rgb(16, 29, 22);
+} 

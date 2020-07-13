@@ -180,7 +180,10 @@
     color: white;
 }
 .icon-footer-row{
-    margin-top: 40px;
+    margin-top: 20px;
+    float: right;
+    margin-right: 10%;
+    margin-left: 10%;
 
 }
 #footer h1{
@@ -189,23 +192,48 @@
     font-size: 35px;
 }
 #i11{
-    width: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
+    width: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
 }
 #i11{
-    color: rgb(155, 129, 129); 
+    color: white; 
 }
 #i11:hover {
-    color: rgb(39, 155, 126);
-    background-color: rgb(176, 201, 171);
+    color: red;
+    background-color: rgb(227, 241, 224);
 }
 #i11:active{
     background-color: rgb(7, 7, 7);
-    color: green;
+    color: yellow;
 }
 .copyright { 
     text-align: center;
-    padding-top: 50px;
+    padding-top: 120px;
     background-color: rgb(16, 29, 22);
 } 
+.line1{
+    display: block; 
+    margin-left: 40%; 
+    margin-right: 40%; 
+    height: 5px;
+    overflow: hidden; 
+    border-style: inset;
+    background-color: silver; 
+    border-width: 1px;
+}
+.id-address{
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    float: left;
+
+}
+.id-address h1:hover{
+    font-weight: 550;
+}
+#love:hover{
+    font-size: 1.5em;
+    position: relative;
+}

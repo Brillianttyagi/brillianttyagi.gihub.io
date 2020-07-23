@@ -98,6 +98,8 @@
     background-color: rgb(233, 231, 231);
     color: rgb(83, 81, 81);
     height: 200px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 .about h1{
     font-size: 28px;

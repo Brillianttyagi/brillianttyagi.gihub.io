@@ -220,6 +220,7 @@
     transition: .4s transform;
 }
 .footer{
+    clear: both;
     height: 250px;
     background-color: rgb(16, 29, 22);
     text-align: center;

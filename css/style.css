@@ -193,6 +193,9 @@
     align-content: center;
     text-align: center;
 }
+.edu{
+    margin-bottom: 50px;
+}
 .school{
     background-color: rgb(75, 66, 66);
     width: 300px;

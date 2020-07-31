@@ -3,6 +3,10 @@
     border: 0px;
 
 }
+.menu-bar{
+    position: fixed;
+    top: 0;
+}
 .header{
     height: 578px;
     color: white;
